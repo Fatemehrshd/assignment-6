@@ -1,0 +1,71 @@
+#background {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    background-color: black;
+    margin-left: 0px;
+}
+
+#square {
+    height: 120px;
+    width: 120px;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    position: relative;
+    top: 20.7%;
+    left: 29%;
+    transform: rotate(45deg);
+    background-color: red;
+}
+
+.heart {
+    height: 130px;
+    width: 130px;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 100%;
+    position: relative;
+    background-color: red;
+}
+
+#circle1 {
+    top: -88px;
+    left: 10.5%;
+}
+
+#circle2 {
+    position: relative;
+    top: -228px;
+    left: 44.5%;
+}
+
+.infinity {
+    width: 90px;
+    height: 90px;
+    border-style: solid;
+    border-width:10px;
+    border-color: rgb(241, 203, 152);
+}
+
+#leftLeaf {
+    
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    top: 300px;
+    left: 1.5%;
+    transform: rotate(45deg);
+}
+
+#rightLeaf {
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+    top: 190px;
+    left: 13%;
+    transform: rotate(-45deg);
+}
